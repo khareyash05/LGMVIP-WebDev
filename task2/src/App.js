@@ -23,23 +23,22 @@ function App() {
   };
   return (
     <>
-      <section className='wholecontainer'>
-        <nav className='navbar navbar-expand-lg navbar-light glassnav'>
+      <section className='con'>
+        <nav className='navbar navbar-expand-lg navbar-light nav'>
           <div className='container-fluid '>
-            <span className='brandname'>Let's Grow More</span>
+            <span className='brand'>LGMVIP</span>
             <button
               className='navbar-toggler'
               type='button'
               data-bs-toggle='collapse'
               data-bs-target='#navbarNav'
               aria-controls='navbarNav'
-              aria-expanded='false'
-              aria-label='Toggle navigation'>
+            >
               <span className='navbar-toggler-icon'></span>
             </button>
             <div className='collapse navbar-collapse' id='navbarNav'>
               <ul class='navbar-nav ms-auto  me-5'>
-                <button className='glassButton' onClick={handleClick}>
+                <button className='mainbutton' onClick={handleClick}>
                   Get Users
                 </button>
               </ul>
@@ -58,7 +57,7 @@ function App() {
                 </div>
               )
             ) : (
-              <div className='col-6  col-sm-8 instruction'>
+              <div className='col-6  col-sm-8 text'>
                <b>Click on "Get Users" button to get users of LGM Users</b>
               </div>
             )}
