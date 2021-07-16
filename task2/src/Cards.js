@@ -13,7 +13,6 @@ export default function Cards(props) {
                   {user.first_name} {user.last_name}
                 </h3>
                 <p>{user.email}</p>
-                <button className='btn-grad'>LGM USER</button>
               </div>
             </div>
           </div>
